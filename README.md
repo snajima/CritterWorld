@@ -6,7 +6,7 @@
 
 Critter World is a project that simulates a world of small agents–critters–with the goal to survive. These critters can move, eat, attack each other and even mate with other willing critters. Critters are also able to sense the nearest piece of food with a “smell” command, implemented with a modified version of Dijkstra's shortest path algorithm. Eventually, critters will also decease and turn into food themselves. The critter's health condition can be checked by clicking on a critter, as shown on the left sidebar below.
 
-Each critter behaves according to a “Critter Program” unique to each critter. This program is written in the “Critter Language”—a context-free grammar—defined by the course staff which can be found in the detailed project spec below. 
+Each critter behaves according to a “Critter Program” unique to each critter. This program is written in the “Critter Language”—a context-free language—defined by the course staff which can be found in the detailed project spec below. 
 
 As part of the project, I wrote the fault injection to make random, small mutations to critters' genes when they reproduce, as well as the path-finding algorithm for critters to sense locations of food in their proximity.
 
